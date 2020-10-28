@@ -1,0 +1,21 @@
+from random import randint
+v=randint(1,100)
+s=int(input("enter num"))
+previous=0
+while 1 :
+    if s>100 or s<0:
+        print("Not")
+        s=int(input("enter num"))
+    elif s==v:
+        print("Great")
+        break
+        s-v> previous <v-s
+        s=int(input("enter num"))
+    elif s-v:
+        print("Its closer")
+        previous =s
+        s=int(input("enter num"))
+    else :
+        print("Father")
+        previous =s
+        s=int(input("enter num"))
